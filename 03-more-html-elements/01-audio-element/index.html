@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Audio</h1>
+    <figure>
+      <figcaption>listen to the music autoplay</figcaption>
+      <audio src="song1.mp3" type="audio/mp3" autoplay controls></audio>
+    </figure>
+    
+    <figure>
+      <figcaption>listen to the music loop but muted</figcaption>
+        <audio src="song1.mp3" type="audio/mp3" loop muted controls></audio>
+    </figure>
+    
+    <figure>
+      <figcaption>listen to the music muted</figcaption>
+        <audio src="song1.mp3" type="audio/mp3" muted controls></audio>
+      
+    </figure>
+    <figure>
+      <figcaption>listen to the music source with fallback msg</figcaption>
+        <audio controls>
+          <source src="song1.mp3" type="audio/mp3">
+          <p>this browser does not suppoert audio</p>
+        </audio>
+    </figure>
+    <figure>
+      <figcaption>download music open in new tab</figcaption>
+      <a href="song1.mp3" download="a">Download music</a>
+    </figure>
+    <figure>
+      <figcaption>download music directly with name on download attribute</figcaption>
+    <a href="song1.mp3" download="song1">Download music</a>
+    </figure>
+  </body>
+</html>
