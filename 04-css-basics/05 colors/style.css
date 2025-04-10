@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: gainsboro;
+}
+.card {
+  background-color: bisque;
+}
+.sporty {
+  background-color: rgb(133, 230, 120);
+  color: darkred;
+}
+.card-3 {
+  background-color: rgba(127, 255, 212, 0.5);
+}
+.casual {
+  background-color: hsl(271, 76%, 53%);
+}
+.formal {
+  background-color: hsla(160, 100%, 75%, 0.5);
+}
+.para {
+  background-color: rgb(128, 0, 128);
+  color: red;
+  opacity: 0.8;
+}
