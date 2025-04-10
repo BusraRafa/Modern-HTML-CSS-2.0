@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  background-color: bisque;
+}
+h1.heading {
+  background-color: blue;
+}
+#heading {
+  background-color: brown !important;
+}
+/* element and class */
+p {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
+.test-class {
+  text-decoration: underline;
+  color: blue;
+  font-style: normal;
+}
+p.test {
+  color: rgb(0, 255, 64);
+  font-style: italic;
+}
+/* id and class */
+
+#id-para {
+  color: darkgreen;
+}
+.para {
+  color: maroon;
+}
