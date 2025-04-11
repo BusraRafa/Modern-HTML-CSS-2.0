@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.box {
+  background-color: violet;
+  margin: 30px;
+  max-width: 900px;
+  /* padding: 20px; */
+}
+.box-1 {
+  padding: 20px;
+}
+
+.box-2 {
+  /* padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 10px; */
+  /* trbl */
+  /* padding: 20px 60px 10px 30px; */
+  /* tb-lr */
+  /* padding: 20px 50px; */
+  /* t-lr-b */
+  padding: 10px 60px 20px;
+}
