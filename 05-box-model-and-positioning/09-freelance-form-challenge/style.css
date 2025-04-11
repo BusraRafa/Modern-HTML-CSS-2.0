@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(47, 50, 58);
+  width: 400px;
+  height: 380px;
+  box-shadow: 10px 10px 25px 5px rgb(107, 107, 107);
+}
+.card h1 {
+  margin-top: 40px;
+  /* margin-bottom: 30px; */
+  color: white;
+
+  font-weight: lighter;
+  font-size: 22px;
+}
+.card p {
+  color: white;
+  margin: 20px;
+}
+.form-group input,
+button {
+  width: 320px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.form-group ::placeholder,
+button {
+  padding: 5px;
+  font-size: large;
+}
+button {
+  color: white;
+  background: linear-gradient(to right, rgb(255, 105, 78), rgb(254, 138, 56));
+  border: none;
+}
