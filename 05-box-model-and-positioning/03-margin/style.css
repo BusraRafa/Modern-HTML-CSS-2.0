@@ -1,0 +1,33 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  text-transform: capitalize;
+}
+.box {
+  background-color: cadetblue;
+  max-width: 800px;
+}
+.box-1 {
+  margin: 20px;
+  padding: 20px;
+}
+.box-2 {
+  width: 700px;
+  /* margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  margin-left: 60px; */
+  /* trbl */
+  margin: 40px 10px 50px 60px;
+  padding: 20px;
+}
+.box-3 {
+  /* tb-lr */
+  margin: 15px -80px;
+  padding: 20px;
+}
+.box-4 {
+  /* center */
+  margin: 50px auto;
+}
