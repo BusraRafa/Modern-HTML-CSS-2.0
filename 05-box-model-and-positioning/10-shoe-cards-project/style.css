@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(227, 221, 221, 0.6);
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+.main {
+  margin: 50px;
+}
+.card {
+  border-radius: 10px;
+  max-width: 500px;
+  height: 180px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.card1 {
+  background: url(./images/sporty.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 180px;
+  background-color: white;
+}
+.card2 {
+  background: url(./images/casual.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 180px;
+  background-color: white;
+}
+.card3 {
+  background: url(./images/formal.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 180px;
+  background-color: white;
+}
+h1 {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.card1 h1 {
+  color: brown;
+}
+.card2 h1 {
+  color: darkblue;
+}
+.card3 h1 {
+  color: rgb(40, 0, 0);
+}
+.card1 button {
+  background-color: brown;
+  border: none;
+}
+.card2 button {
+  background-color: darkblue;
+  border: none;
+}
+.card3 button {
+  background-color: rgb(40, 0, 0);
+  border: none;
+}
