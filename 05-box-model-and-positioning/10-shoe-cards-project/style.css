@@ -40,6 +40,7 @@ body {
 }
 h1 {
   text-transform: capitalize;
+  word-spacing: -2px;
 }
 a {
   text-decoration: none;
@@ -47,7 +48,7 @@ a {
 }
 
 p {
-  padding-top: 20px;
+  padding-top: 18px;
   padding-bottom: 20px;
 }
 button {
@@ -58,7 +59,7 @@ button {
   border-radius: 5px;
 }
 .card1 h1 {
-  color: brown;
+  color: rgb(244, 57, 28);
 }
 .card2 h1 {
   color: darkblue;
@@ -67,7 +68,7 @@ button {
   color: rgb(40, 0, 0);
 }
 .card1 button {
-  background-color: brown;
+  background-color: rgb(244, 57, 28);
   border: none;
 }
 .card2 button {
