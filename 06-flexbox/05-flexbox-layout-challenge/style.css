@@ -51,14 +51,20 @@ h2 {
 .main {
   display: flex;
   /* height: 400px; */
-  justify-content: center;
-  align-items: baseline;
+  /* justify-content: center;
+  align-items: baseline; */
   gap: 280px;
+  /* flex: 1; */
 }
 .section-main {
   margin-top: 50px;
   margin-left: 50px;
+  flex: 1;
 }
+p {
+  margin: 20px 0;
+}
+
 .post-class,
 h3 {
   width: 350px;
