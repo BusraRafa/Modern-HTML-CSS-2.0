@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+main {
+  background-color: lightcyan;
+  width: 90%;
+  margin: 10px auto;
+  height: 800vh;
+  padding: 10px;
+  container-type: inline-size;
+}
+.card {
+  width: 60cqw;
+  margin: 20px auto;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 8px 5px rgba(211, 211, 211, 0.3);
+}
+
+.card-2 {
+  width: 40cqw;
+}
+@container (max-width: 600px) {
+  .card-1 {
+    background-color: rgb(255, 205, 205);
+    width: 95cqw;
+    height: 100cqh;
+  }
+  .card-2 {
+    background-color: blanchedalmond;
+    border: 1px solid rebeccapurple;
+    width: 60cqw;
+    height: 100cqh;
+  }
+}
