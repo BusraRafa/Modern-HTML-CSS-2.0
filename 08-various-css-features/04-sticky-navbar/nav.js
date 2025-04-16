@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const head = document.querySelector("header");
+  const head_nav = document.querySelector("header");
+
   function toggoleheadbar() {
+    // console.log(123);
     // console.log(window.scrollY);
     if (window.scrollY > 0) {
-      head.classList.add("head");
+      head_nav.classList.add("head");
     } else {
-      head.classList.remove("head");
+      head_nav.classList.remove("head");
     }
   }
+
   window.addEventListener("scroll", toggoleheadbar);
 });
