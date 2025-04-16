@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --container-width: 1000px;
+}
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+.item {
+  text-align: center;
+  height: calc(100% - 20px);
+  /* first calc just devides the container width to 5 division thn the 
+  other calc both side left right margin 10+10=20
+  substracts it */
+  min-width: calc(calc(var(--container-width) / 5) - 20px);
+  background-color: wheat;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  height: 200px;
+  width: var(--container-width);
+  background-color: black;
+}
