@@ -6,6 +6,10 @@
 :root {
   --base-color: rgb(255, 246, 235);
 }
+.dark-bg {
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -79,6 +83,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1.2rem;
+  /* border: 2px solid red; */
   /* border: 3px solid blue; */
 }
 
@@ -125,15 +130,18 @@ footer {
 
 .bg-primary {
   background-color: var(--base-color);
+  color: rgb(53, 50, 50);
+  /* border: 2px solid red; */
+  padding: 0 4px;
 }
 .fab {
   padding: 4px;
   color: rgb(53, 50, 50);
 }
-.services {
-  background-color: rgb(42, 41, 41);
+/* .services {
+  background-color: rgb(56, 55, 55);
   color: white;
-}
+} */
 h2.service-header {
   text-transform: capitalize;
   text-align: center;
@@ -174,16 +182,81 @@ h2.service-header {
   width: 100%;
   border-radius: 10px;
 }
+.team-member h4,
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.contact-head {
+  text-align: center;
+  padding-top: 2.8rem;
+}
+.contact p {
+  text-align: center;
+  margin: 40px auto;
+  /* padding: 10px 0; */
+}
+.message-form {
+  padding: 10px 0;
+  /* border: 2px solid red; */
+}
+.message-form input,
+textarea {
+  border: none;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.message-form textarea {
+  height: 180px;
+}
+.message-form input:focus,
+.message-form textarea:focus {
+  outline: none;
+}
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 18px;
+  background-color: transparent;
+  border: 1px solid rgb(53, 50, 50);
+  font-size: 1rem;
+  color: rgb(53, 50, 50);
+  margin-top: 10px;
+}
+.contact {
+  margin-bottom: 130px;
+}
+.btn:hover {
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
 @media (max-width: 768px) {
-  .nav-bar {
+  .nav-bar,
+  .work,
+  .team-member {
     flex-direction: column;
     gap: 1.6rem;
   }
   main {
     height: 45vh;
   }
-  p {
+  .caption p {
     font-size: 1.8rem;
+  }
+  .work h2 {
+    font-size: 1.2rem;
   }
   .photo {
     width: calc(calc(100% / 2) - 1.2rem); /*100/3 is 33.333%*/
