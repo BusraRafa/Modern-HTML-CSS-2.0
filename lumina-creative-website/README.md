@@ -18,7 +18,7 @@ Check out the live demo of the website here:
 
 ## Screenshot
 
-![Website Screenshot](![Image](https://github.com/user-attachments/assets/a7401928-528d-4685-946f-e3bffac3d098))
+![Website Screenshot](https://github.com/user-attachments/assets/a406f45c-d5e3-42e2-ab86-7af6513f85fe)
 
 ## Technologies Used
 - HTML
