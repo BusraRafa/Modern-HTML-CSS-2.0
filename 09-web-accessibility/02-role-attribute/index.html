@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>my website</h1>
+      <p>Lorem, ipsum dolor.</p>
+    </header>
+    <div role="main">
+      <h2>my website</h2>
+    </div>
+    <!--sem as div role="main"-->
+    <main>
+      <h2>my website</h2>
+    </main>
+    <a href="#" role="button"> click the button</a>
+    <!-- without alt or blank alt it says nothing 
+     about the imgr the tag just the role if it has 
+     the role added -->
+    <img
+      src="https://i.natgeofe.com/n/3012ffcc-7361-45f6-98b3-a36d4153f660/colosseum-daylight-rome-italy.jpg"
+      alt=""
+      width="500px"
+      role="button"
+      aria-label="button to show modal"
+      tabindex="0"
+    />
+    <script>
+      document.querySelector("img").addEventListener("click", function () {
+        alert("image clicked");
+      });
+    </script>
+    <h2>available fruit</h2>
+    <div>
+      <ul role="listbox" aria-label="available fruit">
+        <li role="option">Apple</li>
+        <li role="option">orange</li>
+        <li role="option">kiwi</li>
+      </ul>
+    </div>
+
+    <div role="region" aria-label="faq-region">
+      <h2>faq section</h2>
+      <p>Lorem, ipsum dolor.</p>
+    </div>
+
+    <div role="alert">
+      <p>post saved</p>
+    </div>
+  </body>
+</html>
