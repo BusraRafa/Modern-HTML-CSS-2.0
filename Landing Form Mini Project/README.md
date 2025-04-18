@@ -10,10 +10,7 @@ Check out the live demo of the website here:
 
 
 ## Project Structure
-- `index.html`: Main homepage
-- `about.html`: About page
-- `contact.html`: Contact page
-- `images/`: Image assets
+- `index.html`: Main homepage with a form to connect with us
 - `style.css`: Custom styling
 
 ## Screenshot
