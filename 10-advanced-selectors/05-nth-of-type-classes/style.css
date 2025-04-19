@@ -1,0 +1,64 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+li {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 5px 0;
+  width: 100%;
+}
+.container {
+  max-width: 1100px;
+}
+
+/*  Style the first li of it's parent */
+ul li:first-of-type {
+  background-color: lightgreen;
+}
+/*  Style the last li of it's parent */
+ul li:last-of-type {
+  background-color: rgb(177, 144, 238);
+}
+/*  Style the 3rd item */
+ul li:nth-of-type(3) {
+  background-color: rgb(255, 177, 255);
+}
+/*  Style the 6th item */
+li:nth-of-type(6) {
+  background-color: rgb(251, 163, 163);
+}
+/*  Style the even items */
+ul li:nth-last-of-type(even) {
+  border: 3px solid blue;
+}
+/*  Style the odd items */
+ul li:nth-last-of-type(odd) {
+  border: 3.5px solid darkred;
+}
+/* nth-of-type vs nth-child */
+.garden p:nth-of-type(2) {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.garden p:nth-child(2) {
+  background-color: paleturquoise;
+}
+
+/* Using pseudo classes with pseudo elements */
+/* using type is best as it is clear
+what type and which number it wants */
+.container p:nth-of-type(2)::first-letter {
+  font-size: 4rem;
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(61, 22, 102);
+  background-color: rgb(185, 255, 226);
+}
+/* using child even it says 'p' it choose
+the 2nd child 'p' which was actaully not the target */
+.container p:nth-child(2)::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: brown;
+  background-color: peachpuff;
+}
