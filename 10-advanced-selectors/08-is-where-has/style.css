@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.container h1,
+h2,
+p {
+  color: blueviolet;
+}
+.container :is(h1, p) {
+  color: brown;
+} /*this has higher order than where and then normal */
+a:is(:hover, :focus) {
+  color: darkgreen;
+  text-transform: capitalize;
+  background-color: rgb(212, 255, 126);
+}
+.container :where(h2, p) {
+  color: rgb(5, 91, 5);
+  text-decoration: underline;
+}
+.container:has(h1 span) {
+  text-transform: uppercase;
+  font-style: italic;
+} /* entire container is now applied by this */
+
+h1:has(+ p) {
+  background-color: yellow;
+  color: black;
+}
