@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <style>
+      meter::-webkit-meter-optimum-value{
+        background-color: brown;
+      }
+    </style>
+    <h1>HTML & CSS Sandbox - Progress & Meter</h1>
+    <label for="progress">your progress</label>
+    <progress id="progress" max="100" value="10">10%</progress>
+   
+   <br>
+    <label for="meter">check meter</label>
+    <meter id="meter" value="30" max="100" min="10" low="20" high="90" optimum="80">50/100</meter>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-item {
+  background-color: coral;
+  border: 1px solid black;
+  padding: 30px;
+  flex: 1;
+}
+/* for customised item order */
+.flex-boxs {
+  display: flex;
+}
+
+.flex-box {
+  background-color: crimson;
+  border: 1px solid black;
+  padding: 30px;
+  flex: 1;
+}
+.box-1 {
+  order: 3;
+}
+.box-2 {
+  order: 5;
+}
+.box-6 {
+  order: 4;
+}
+.box-3 {
+  order: 6;
+}
+.box-4 {
+  order: 1;
+}
+.box-5 {
+  order: 2;
+}

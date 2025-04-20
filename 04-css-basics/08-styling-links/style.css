@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+  text-transform: uppercase;
+}
+a:active {
+  background-color: darkgreen;
+  color: cornsilk;
+}
+a:focus {
+  background-color: darkmagenta;
+}
+a:visited {
+  color: chocolate;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .widescreen {
+    background: coral;
+  }
+}
+@media (max-width: 950px) {
+  .normal {
+    background-color: aqua;
+  }
+}
+
+@media (max-width: 770px) {
+  .tablet {
+    background-color: indianred;
+  }
+}
+@media (min-width: 520px) {
+  .smartphone {
+    background-color: hotpink;
+  }
+}
+@media (orientation: landscape) {
+  .landscape {
+    background-color: lawngreen;
+  }
+}
+@media (min-height: 600px) {
+  .height {
+    background-color: cadetblue;
+  }
+}
+@media (min-width: 720px) and (max-width: 980px) {
+  body {
+    background: burlywood;
+  }
+}

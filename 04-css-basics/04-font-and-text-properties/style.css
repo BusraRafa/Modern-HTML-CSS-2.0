@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+.sporty {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: monospace;
+}
+.formal {
+  font-weight: lighter;
+  text-indent: 20%;
+  letter-spacing: 10px;
+}
+.casual {
+  text-transform: lowercase;
+}
+
+#main p {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: smaller;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}

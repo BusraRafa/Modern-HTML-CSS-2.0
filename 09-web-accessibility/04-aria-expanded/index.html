@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Aria Expanded</h1>
+
+    <div class="accordion">
+      <div
+        class="accordion-header"
+        id="accordion-heading"
+        role="button"
+        aria-controls="accordion-content"
+        aria-expanded="false"
+        tabindex="0"
+      >
+        <!-- this controls the para so control=id of the para
+       and the expanded hav to be set false as default
+       as expanded will be set true in the javascript in toggle -->
+        Section 1: Introduction
+      </div>
+      <div
+        class="accordion-content"
+        id="accordion-content"
+        role="region"
+        aria-labelledby="accordion-heading"
+        aria-hidden="true"
+      >
+        <!-- aria-hidden true cz this have to be hidden by default
+       it will toggle thru javascript
+       labelby is the id of the heading as it is thats para -->
+        <p>This section provides an introduction to the topic.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

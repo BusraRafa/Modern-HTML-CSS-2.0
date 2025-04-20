@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.display {
+  display: none;
+}
+h2.visibility {
+  visibility: hidden;
+}
+p {
+  display: inline;
+}
+a {
+  /* they are made block but in the line so inline */
+  display: inline-block;
+  background-color: greenyellow;
+  padding: 20px;
+  /* inline thats why margin top bottom dont effect
+  just left right does
+  changing in block will do */
+  margin: 10px 20px;
+  /* inline thats why width height dont effect
+  changing in block will do */
+  width: 100px;
+  height: 100px;
+}

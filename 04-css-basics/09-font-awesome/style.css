@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-instagram {
+  color: rgb(255, 0, 140);
+}
+.fa-whatsapp {
+  color: lime;
+  background-color: aliceblue;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-google {
+  color: burlywood;
+}
+.fa-microsoft {
+  color: lightskyblue;
+}
