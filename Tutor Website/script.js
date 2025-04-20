@@ -7,3 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     mobile_nav_bar.classList.toggle("active");
   });
 });
+
+// head-bar trasparent
+window.addEventListener("scroll", function () {
+  const head_bar_scroll = document.querySelector("header");
+  if (window.scrollY > 0) {
+    head_bar_scroll.classList.add("head-bar-scroll");
+  } else {
+    head_bar_scroll.classList.remove("head-bar-scroll");
+  }
+});
