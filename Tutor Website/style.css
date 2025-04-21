@@ -7,7 +7,7 @@
 }
 :root {
   --secondary-color: rgb(239, 192, 91);
-  --primary-color: rgb(253, 91, 66);
+  --primary-color: rgb(252, 93, 102);
 }
 html {
   scroll-behavior: smooth;
@@ -30,7 +30,7 @@ header {
   transition: background-color 0.3s ease-in-out;
 }
 header.head-bar-scroll {
-  background-color: rgba(230, 79, 24, 0.2);
+  background-color: rgba(252, 93, 102, 0.7);
   backdrop-filter: blur(10px);
 }
 .container {
@@ -228,6 +228,34 @@ a:hover.hompage-btn {
   margin-top: 25px;
 }
 /*-- course section style ends-- */
+
+/* summary section style */
+.summary {
+  background-color: rgb(249, 247, 247);
+  color: black;
+  padding: 4rem 1rem 5rem;
+  margin: 8rem 0;
+}
+.summary-list {
+  background-color: white;
+  padding: 3rem 2.5rem;
+}
+.summary-list-item .summary-heading {
+  background-color: var(--primary-color);
+  padding: 0.3rem 0.8rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+.summary-list .summary-point {
+  padding: 0.9rem 0;
+  /* border-bottom: thin solid rgba(228, 228, 228, 0.322); */
+  margin: 1.4rem 0;
+}
+
+.summary-list-item div:last-of-type {
+  border: none;
+}
 @media (max-width: 1200px) {
   .homepage-flex {
     gap: 1.5rem;
