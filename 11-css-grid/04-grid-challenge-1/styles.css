@@ -1,3 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.container {
+  background-color: aliceblue;
+  margin: 10px;
+  max-width: 1100px;
+}
+.item {
+  text-align: center;
+  background-color: coral;
+  border: thin solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 3fr;
+  grid-auto-rows: 4fr;
+  gap: 1rem;
 }
