@@ -19,7 +19,7 @@ body {
   background-color: coral;
   border: thin solid black;
   padding: 10px;
-  margin: 5px;
+  /* margin: 5px; */
 }
 .item-grid {
   display: grid;
