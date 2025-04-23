@@ -1,3 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
+}
+.container {
+  /* max-width: 1100px; */
+  height: 100vh;
+  background-color: peachpuff;
+}
+.box-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto 1fr auto;
+}
+.box {
+  text-transform: capitalize;
+  padding: 12px;
+
+  color: white;
+}
+.header {
+  background-color: rgb(28, 25, 25);
+  grid-column: span 2;
+}
+.nav {
+  background-color: rgb(45, 44, 44);
+}
+.search {
+  background-color: rgb(81, 77, 77);
+}
+.main {
+  background-color: rgb(224, 223, 223);
+  color: black;
+}
+.aside {
+  background-color: rgb(203, 201, 201);
+  color: black;
+}
+.footer {
+  background-color: rgb(88, 83, 83);
+  grid-column: span 2;
 }
