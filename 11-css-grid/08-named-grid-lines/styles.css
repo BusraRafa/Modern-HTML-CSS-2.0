@@ -18,4 +18,18 @@ body {
 
 .item-grid {
   display: grid;
+  grid-template-columns: [col-1-str] 1fr [col-1-end col-2-str] 1fr [col-2-end col-3-str] 1fr [col-3-end];
+  grid-template-rows: [row-1-str] 1fr [row-1-end row-2-str] 1fr [row-3-str row-2-end] 1fr [row-3-end row-4-str];
+}
+.item-1 {
+  /* grid-column-start: col-1-str;
+  grid-column-end: col-2-end; */
+  grid-column: col-1-str/col-3-str; /* same as span col-2-end and col-3-str shares the 
+  same name so it can be called both here */
+}
+.item-6 {
+  /* grid-row-start: row-2-str;
+  grid-row-end: row-4-str; */
+  /* grid-row: row-2-str/span 2; */ /*can also use span*/
+  grid-row: row-2-str/row-3-end;
 }
