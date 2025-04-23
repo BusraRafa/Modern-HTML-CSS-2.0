@@ -18,6 +18,31 @@ body {
 
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); */
+  /* shortcut of this first is row last one column */
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* shortcut */
+  grid-column: 1/3;
+}
+.item-4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-row: 2/4;
+  grid-row: 2 / span 2;
+  /* if starting line naturally is 2 then only span 2
+  else want to start from 3 then span is to more 2 line
+  thn 
+  3/ span 2 */
+  grid-row: span 2;
+}
+.item-9 {
+  grid-column: 1 / span 2;
+}
+.item-6 {
+  grid-row: span 2;
 }
