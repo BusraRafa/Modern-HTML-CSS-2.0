@@ -1,12 +1,21 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
   max-width: 900px;
   margin: 130px auto;
+  background-color: rgb(225, 225, 225);
+  height: 600px;
+  position: relative;
 }
-
+/* when container is relative
+& img is absolute use top right and tranlate  */
 .logo {
+  position: absolute;
   max-width: 30%;
+  top: 50%;
+  right: 50%;
+  /* transform: translate(130px, -130px); */
+  transform: translate(50%, -50%);
 }
