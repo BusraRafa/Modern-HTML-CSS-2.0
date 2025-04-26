@@ -1,5 +1,6 @@
 # 🎯 Modern HTML & CSS Projects
 Practice projects and tasks completed from the <strong>"Modern HTML & CSS From The Beginning"</strong> Udemy course.<br>This repository showcases my learning journey, daily practice, and real-world mini-projects using modern HTML and CSS techniques.
+<br><br>
 <details open>
   <summary>📚Table of Contents</summary>
   <ol>
