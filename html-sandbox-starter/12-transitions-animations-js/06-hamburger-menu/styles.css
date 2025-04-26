@@ -58,7 +58,11 @@ img {
   text-align: center;
   bottom: 0;
   background-color: rgba(135, 206, 250, 0.33);
+  /* either this method-1 */
+  transition: all 0.5s ease;
   transform: translateX(100%);
+  /* method 2 */
+  /* display: none; */
 }
 .mobile-menu-list {
   display: flex;
@@ -72,7 +76,10 @@ img {
   cursor: pointer;
 }
 .mobile-menu-item.active {
+  /* for method 1 */
   transform: translateX(0);
+  /* for method 2 */
+  /* display: block; */
 }
 @media (max-width: 768px) {
   .main-menu-list {
