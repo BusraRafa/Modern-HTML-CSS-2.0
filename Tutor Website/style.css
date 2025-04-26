@@ -347,6 +347,9 @@ a:hover.hompage-btn {
   .info-left {
     display: none;
   }
+  .info-container {
+    flex-direction: column;
+  }
   .info-content {
     padding: 2rem 2.2rem;
   }
