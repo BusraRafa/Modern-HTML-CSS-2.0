@@ -12,8 +12,8 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
       <details>
         <summary><a href="#mini-tasks-and-challenges">Mini-tasks and Challenges</a></summary>
         <ol>
-          <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
-          <li><a href="#html-form-challenge">html-form-challenge</a></li>
+<!--           <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
+          <li><a href="#html-form-challenge">html-form-challenge</a></li> -->
           <li><a href="#css-basics-challenge">css-basics-challenge</a></li>
           <li><a href="#freelance-form-challenge">freelance-form-challenge</a></li>
           <li><a href="#shoe-cards-project">shoe-cards-project</a></li>
@@ -61,7 +61,29 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 
 ---
 ## Mini-tasks and Challenges
-### css-basics-challenge
-### freelance-form-challenge
-### shoe-cards-project
+This section showcases the completion of several mini tasks and challenges, each focusing on different aspects of HTML and CSS. Includes building simple layouts, forms, components to demonstrate and apply the skills gained throughout the course.
+- ### css-basics-challenge
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/10-css-basics-challenge/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/10-css-basics-challenge)**
+- ### freelance-form-challenge
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/09-freelance-form-challenge/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/09-freelance-form-challenge)**
+- ### shoe-cards-project
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/10-shoe-cards-project/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/10-shoe-cards-project)**
+- ### flexbox-layout-challenge
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/05-flexbox-layout-challenge/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/05-flexbox-layout-challenge)**
+- ### pricing-grid-project
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/06-pricing-grid-project/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/06-pricing-grid-project)**
+- ### selectors-challenge
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/10-selectors-challenge/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/10-selectors-challenge)**
+- ### grid-challenge-1
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/04-grid-challenge-1/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/04-grid-challenge-1)**
+- ### grid-challenge-2
+**🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/10-grid-challenge-2/)** &nbsp;
+**🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/10-grid-challenge-2)**
 
