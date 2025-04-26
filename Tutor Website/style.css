@@ -261,6 +261,7 @@ a:hover.hompage-btn {
   border: none;
 }
 /* summary section style ends here*/
+
 /* course-info style */
 .info-container {
   background: url("./images/audience.jpg") no-repeat top center/cover;
@@ -290,8 +291,29 @@ a:hover.hompage-btn {
   color: var(--secondary-color);
   margin-right: 1rem;
 }
-
 /* course-info style ends here */
+
+/* key-section style */
+.key-section {
+  margin: 4rem 0;
+}
+.key-grid .fas {
+  color: var(--primary-color);
+}
+.key-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1.5rem 0;
+}
+.key-grid .course-chapters {
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.key-grid p {
+  text-align: left;
+}
+/* key-section style ends here */
 @media (max-width: 1200px) {
   .homepage-flex {
     gap: 1.5rem;
