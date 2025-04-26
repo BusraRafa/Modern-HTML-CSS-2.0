@@ -355,6 +355,9 @@ a:hover.hompage-btn {
   .course-grid {
     grid-template-columns: 1fr;
   }
+  .key-grid {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 768px) {
   /* .homepage-flex {
