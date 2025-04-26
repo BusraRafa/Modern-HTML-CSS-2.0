@@ -52,6 +52,9 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
 
---
+---
 ## Mini-tasks and Challenges
+### css-basics-challenge
+### freelance-form-challenge
+### shoe-cards-project
 
