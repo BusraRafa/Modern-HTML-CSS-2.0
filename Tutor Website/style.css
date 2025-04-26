@@ -347,11 +347,6 @@ a:hover.hompage-btn {
   .learn-gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .course-chapters {
-    width: 100%;
-    height: 320px;
-    padding: 2rem 1.8rem;
-  }
   .course-grid {
     grid-template-columns: 1fr;
   }
