@@ -5,7 +5,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 - [Project 2: Tutor Website](#project-2-project-title)
 - [Project 3: Lumina Creative](#project-3-project-title)
 - [Project 4: Bono Landing Page-->
-<details>
+<details open>
   <summary>📚Table of Contents</summary>
   <ol>
     <li><a href="#tutor-website">Tutor Website</a></li>
@@ -33,21 +33,21 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 
 
 ---
-## Tutor Website
+## Tutor Website 💡
 ![Image](https://github.com/user-attachments/assets/c3772291-0537-42f5-b3e7-a9cbc77c2d16)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://tutor-website-in.netlify.app/) | [Tutor Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor%20Website) |
 
 ---
-## Lumina Creative Website
+## Lumina Creative Website 💻
 ![Image](https://github.com/user-attachments/assets/ef5c6496-345c-4dc0-b8f0-71d09132dc8c)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
-| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
+| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://lumina-creative-webshow.netlify.app/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
 
 ---
-## Bono Landing Page
+## Bono Landing Page 🌟
 ![Image](https://github.com/user-attachments/assets/412a5d56-c6f4-4920-a87b-e9376e95cd83)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
