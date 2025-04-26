@@ -5,5 +5,80 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 1rem 0rem;
+}
+.container img {
+  width: 50px;
+}
+.navbar {
+  background-color: lightskyblue;
+  height: 80px;
+  padding: 0rem 2rem;
+}
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-menu-list {
+  display: flex;
+  gap: 1.5rem;
+}
+/* mobile menu style */
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-item {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(135, 206, 250, 0.33);
+  transform: translateX(100%);
+}
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+  height: 100%;
+  gap: 1.5rem;
+}
+.mobile-menu-toggle {
+  cursor: pointer;
+}
+.mobile-menu-item.active {
+  transform: translateX(0);
+}
+@media (max-width: 768px) {
+  .main-menu-list {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
 }
