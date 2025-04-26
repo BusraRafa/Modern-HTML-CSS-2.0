@@ -5,7 +5,6 @@ This is the **Bono Landing form** mini-project, a form based website built using
 ## Live Demo
 
 Check out the live demo of the website here:  
-## Live Demo
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/)
 
 
