@@ -209,13 +209,16 @@ a:hover.hompage-btn {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  padding: 1rem 0 4rem;
 }
 .course-chapters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 360px;
-  height: 350px;
-  border-radius: 2px;
-  padding: 1rem 2rem;
+  padding: 2rem 1.75rem;
+  background: white;
   box-shadow: 2px 2px 8px 2px rgba(193, 192, 192, 0.8);
 }
 .course-chapters h3 {
