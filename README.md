@@ -12,8 +12,8 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
       <details>
         <summary><a href="#mini-tasks-and-challenges">Mini-tasks and Challenges</a></summary>
         <ol>
-          <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
-          <li><a href="#html-form-challenge">html-form-challenge</a></li>
+<!--           <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
+          <li><a href="#html-form-challenge">html-form-challenge</a></li> -->
           <li><a href="#css-basics-challenge">css-basics-challenge</a></li>
           <li><a href="#freelance-form-challenge">freelance-form-challenge</a></li>
           <li><a href="#shoe-cards-project">shoe-cards-project</a></li>
