@@ -231,12 +231,13 @@ a:hover.hompage-btn {
 
 /* summary section style */
 .summary {
-  background-color: rgb(248, 252, 252);
+  background-color: rgba(216, 216, 216, 0.23);
   color: black;
   padding: 4rem 2rem 5rem;
   /* margin: 8rem 0; */
 }
 .summary-list {
+  /* border: thin solid red; */
   background-color: white;
   padding: 3rem 2.5rem;
 }
@@ -318,9 +319,9 @@ a:hover.hompage-btn {
     line-height: 1.8;
   }
 
-  .homepage-flex {
-    /* border: 4px solid violet; */
-  }
+  /* .homepage-flex {
+    border: 4px solid violet;
+  } */
   .homepage-flex h1 {
     font-size: 2.5rem;
   }
@@ -333,5 +334,17 @@ a:hover.hompage-btn {
   }
   .course-chapters {
     height: 350px;
+  }
+  .summary {
+    padding: 4rem 0.2rem 5rem;
+  }
+  .summary-list {
+    padding: 3rem 1.5rem;
+  }
+  .summary-list-item .summary-heading {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
   }
 }
