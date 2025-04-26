@@ -9,7 +9,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
     <li><a href="#bono-landing-page">Bono Landing Page</a></li>
     <li>
       <details>
-        <summary><a href="#mini-tasks">Mini-tasks</a></summary>
+        <summary><a href="#mini-tasks">Mini-tasks and Challenges</a></summary>
         <ol>
           <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
           <li><a href="#html-form-challenge">html-form-challenge</a></li>
@@ -51,4 +51,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
+
+--
+## Mini-tasks and Challenges
 
