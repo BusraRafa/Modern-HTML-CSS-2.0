@@ -1,3 +1,4 @@
+<a id="readme-top"></a> 
 # 🎯 Modern HTML & CSS Projects
 Practice projects and tasks completed from the <strong>"Modern HTML & CSS From The Beginning"</strong> Udemy course.<br>This repository showcases my learning journey, daily practice, and real-world mini-projects using modern HTML and CSS techniques.
 <br><br>
@@ -9,7 +10,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
     <li><a href="#bono-landing-page">Bono Landing Page</a></li>
     <li>
       <details>
-        <summary><a href="#mini-tasks">Mini-tasks</a></summary>
+        <summary><a href="#mini-tasks-and-challenges">Mini-tasks and Challenges</a></summary>
         <ol>
           <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
           <li><a href="#html-form-challenge">html-form-challenge</a></li>
@@ -36,6 +37,8 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://tutor-website-in.netlify.app/) | [Tutor Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor%20Website) |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 <a id="lumina-creative-website"></a>
 ## Lumina Creative Website 💻
@@ -44,6 +47,8 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://lumina-creative-webshow.netlify.app/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 <a id="bono-landing-page"></a>
 ## Bono Landing Page 🌟
@@ -51,4 +56,12 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+## Mini-tasks and Challenges
+### css-basics-challenge
+### freelance-form-challenge
+### shoe-cards-project
 
