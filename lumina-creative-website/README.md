@@ -5,7 +5,6 @@ This is the **Lumina Creative Web** project, a creative website built using HTML
 ## Live Demo
 
 Check out the live demo of the website here:  
-## Live Demo
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://lumina-creative-webshow.netlify.app/)
 
 
