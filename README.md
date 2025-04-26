@@ -10,7 +10,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
     <li><a href="#bono-landing-page">Bono Landing Page</a></li>
     <li>
       <details>
-        <summary><a href="#mini-tasks">Mini-tasks and Challenges</a></summary>
+        <summary><a href="#mini-tasks-and-challenges">Mini-tasks and Challenges</a></summary>
         <ol>
           <li><a href="#pricing-grid-html-challenge">pricing-grid-html-challenge</a></li>
           <li><a href="#html-form-challenge">html-form-challenge</a></li>
