@@ -61,6 +61,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 
 ---
 ## Mini-tasks and Challenges
+This section showcases the completion of several mini tasks and challenges, each focusing on different aspects of HTML and CSS. Includes building simple layouts, forms, components to demonstrate and apply the skills gained throughout the course.
 - ### css-basics-challenge
 **🔗 [Live Preview](https://busrarafa.github.io/Modern-HTML-CSS-2.0/mini-tasks-and-challenges/10-css-basics-challenge/)** &nbsp;
 **🛠️ [Access Source Code](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/mini-tasks-and-challenges/10-css-basics-challenge)**
