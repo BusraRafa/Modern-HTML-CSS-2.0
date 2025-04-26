@@ -48,6 +48,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://lumina-creative-webshow.netlify.app/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 <a id="bono-landing-page"></a>
 ## Bono Landing Page 🌟
@@ -57,6 +58,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 ## Mini-tasks and Challenges
 ### css-basics-challenge
