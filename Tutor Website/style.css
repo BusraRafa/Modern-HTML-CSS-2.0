@@ -417,14 +417,13 @@ p.review-para {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   border: thin solid #ccc;
 }
 .subscription-flex h2 {
   font-size: 2rem;
 }
 .subscription-flex p {
-  font-size: 1.1rem;
   max-width: 600px;
 }
 .subscription-flex form {
@@ -552,5 +551,11 @@ p.review-para {
   }
   .review-stat {
     flex-direction: column;
+  }
+  .subscription-flex h2 {
+    font-size: 1.5rem;
+  }
+  .subscription-flex p {
+    display: none;
   }
 }
