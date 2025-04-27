@@ -149,7 +149,8 @@ li {
   cursor: pointer;
   border: 2px solid var(--secondary-color);
 }
-a:hover.hompage-btn {
+a:hover.hompage-btn,
+button:hover.hompage-btn {
   border: 2px solid white;
   background-color: var(--primary-color);
   color: white;
@@ -402,6 +403,41 @@ p.review-para {
   margin: 0 auto;
 }
 /* review-section style ends here*/
+
+/* subscription-section style*/
+.subscription-section {
+  margin: 0 2rem;
+}
+.subscription-flex {
+  text-align: center;
+  background-color: rgba(226, 226, 226, 0.252);
+  /* margin: 0 30px; */
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: thin solid #ccc;
+}
+.subscription-flex h2 {
+  font-size: 2rem;
+}
+.subscription-flex p {
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+.subscription-flex form {
+  width: 400px;
+}
+.subscription-flex input[type="email"] {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: thin solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 32px;
+}
+/* subscription-section style ends here*/
 
 @media (max-width: 1200px) {
   .homepage-flex {
