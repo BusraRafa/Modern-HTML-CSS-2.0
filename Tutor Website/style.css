@@ -366,7 +366,7 @@ a:hover.hompage-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 8rem;
+  /* margin: 0 8rem; */
   padding: 4rem 2rem;
 }
 .review-section img {
@@ -389,6 +389,7 @@ a:hover.hompage-btn {
 }
 .review-content p {
   font-size: 0.8rem;
+  text-align: center;
 }
 p.review-para {
   font-size: 1.2rem;
@@ -442,7 +443,8 @@ p.review-para {
     grid-template-columns: 1fr;
   }
   .details-flex,
-  .details-section + .author-section .details-flex {
+  .details-section + .author-section .details-flex,
+  .review-flex {
     flex-direction: column;
     gap: 2rem;
   }
@@ -511,5 +513,8 @@ p.review-para {
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
+  }
+  .review-stat {
+    flex-direction: column;
   }
 }
