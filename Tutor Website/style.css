@@ -392,7 +392,8 @@ a:hover.hompage-btn {
   .key-grid {
     grid-template-columns: 1fr;
   }
-  .details-flex {
+  .details-flex,
+  .details-section + .author-section .details-flex {
     flex-direction: column;
     gap: 2rem;
   }
