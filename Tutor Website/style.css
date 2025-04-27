@@ -356,6 +356,52 @@ a:hover.hompage-btn {
 }
 /* author-section style ends here*/
 
+/* review-section style */
+.review-section {
+  background: url("./images/stats-background.jpg") no-repeat center center/cover;
+  margin: 4rem 0;
+  color: white;
+}
+.review-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+  padding: 4rem 2rem;
+}
+.review-section img {
+  width: 100%;
+  max-width: 500px;
+}
+.review-content {
+  max-width: 500px;
+}
+.review-stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.review-stat h3 {
+  font-size: 3rem;
+}
+.review-content p {
+  font-size: 0.8rem;
+}
+p.review-para {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.review-section .hompage-btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+/* review-section style ends here*/
+
 @media (max-width: 1200px) {
   .homepage-flex {
     gap: 1.5rem;
