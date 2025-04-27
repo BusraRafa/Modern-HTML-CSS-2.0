@@ -88,7 +88,7 @@ img {
   gap: 1rem;
   font-size: 1.3rem;
 }
-a {
+.nav-bar-list a {
   color: white;
   text-decoration: none;
   text-transform: capitalize;
