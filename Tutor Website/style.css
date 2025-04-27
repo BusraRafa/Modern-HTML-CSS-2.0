@@ -142,7 +142,7 @@ li {
   height: 70px; */
   text-align: center;
   color: black;
-  padding: 1.2rem 2.2rem;
+  padding: 1.3rem 2.3rem;
   background-color: var(--secondary-color);
   border-radius: 40px;
   font-weight: 400;
@@ -315,13 +315,16 @@ a:hover.hompage-btn {
 }
 /* key-section style ends here */
 /* details-section*/
+.details-section {
+  margin: 4rem 0;
+}
 .details-flex {
   display: flex;
   gap: 4rem;
   justify-content: center;
   align-items: center;
 }
-.details-section img {
+.details-flex img {
   width: 100%;
   max-width: 500px;
 }
