@@ -44,7 +44,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 9.5rem;
+  margin: 0 auto;
 }
 .navbar__logo img {
   width: 112px;
