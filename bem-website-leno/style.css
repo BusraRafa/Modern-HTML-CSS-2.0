@@ -28,3 +28,41 @@ img {
 ul li {
   list-style-type: none;
 }
+/* navbar style */
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in-out;
+}
+.navbar__container {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo img {
+  width: 112px;
+  height: 36px;
+}
+.navbar__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 600;
+}
+.navbar__menu-link:hover {
+  color: var(--primary-color);
+}
+.navbar__menu-link--primary {
+  color: var(--primary-color);
+}
+.navbar__menu-link--primary:hover {
+  color: white;
+}
+/* navbar style ends here*/
