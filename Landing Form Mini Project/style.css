@@ -95,6 +95,10 @@ button {
   text-transform: capitalize;
   color: white;
   background-color: rgb(235, 57, 48);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(255, 34, 22, 0.621);
 }
 
 .message {
