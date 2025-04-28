@@ -42,7 +42,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 ---
 <a id="tutor-website"></a>
 ## Tutor Website 💡
-![Image](https://github.com/user-attachments/assets/c3772291-0537-42f5-b3e7-a9cbc77c2d16)
+![Image](https://github.com/user-attachments/assets/677b469c-d75f-44bf-952f-80f43db8b59a)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://busrarafa.github.io/Modern-HTML-CSS-2.0/Tutor%20Website/) | [Tutor Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor%20Website/) |
