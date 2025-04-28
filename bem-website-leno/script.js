@@ -6,3 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     mobile_menu.classList.toggle("active");
   });
 });
+
+window.addEventListener("scroll", function () {
+  const navbar_head_scroll = document.querySelector(".navbar");
+  if (window.scrollY > 0) {
+    navbar_head_scroll.classList.add("navbar--scroll");
+  } else {
+    navbar_head_scroll.classList.remove("navbar--scroll");
+  }
+});
