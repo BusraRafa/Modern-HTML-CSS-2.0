@@ -52,7 +52,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 ---
 <a id="lumina-creative-website"></a>
 ## Lumina Creative Website 💻
-![Image](https://github.com/user-attachments/assets/ef5c6496-345c-4dc0-b8f0-71d09132dc8c)
+![Image](https://github.com/user-attachments/assets/03cecc64-335b-4970-8315-69cfc80a240a)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
 | [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://busrarafa.github.io/Modern-HTML-CSS-2.0/lumina-creative-website/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
