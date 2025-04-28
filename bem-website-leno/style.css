@@ -44,6 +44,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 9.5rem;
 }
 .navbar__logo img {
   width: 112px;
@@ -52,7 +53,6 @@ ul li {
 .navbar__menu-list {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
   font-weight: 600;
 }
