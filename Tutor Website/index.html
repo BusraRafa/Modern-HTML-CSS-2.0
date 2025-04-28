@@ -21,10 +21,11 @@
     />
   </head>
   <body>
-    <header class="head-bar">
+    <header class="head-bar" role="navigation" aria-label="main navigation">
       <div class="head-flex container">
-        <img src="./images/logo.svg" alt="tutor" />
-
+        <a href="/" aria-label="logo home link">
+          <img src="./images/logo.svg" alt="tutor" />
+        </a>
         <nav class="nav-bar">
           <ul class="nav-bar-list">
             <li><a href="#home">home</a></li>
@@ -34,12 +35,18 @@
             <li><a href="#author">author</a></li>
             <li><a href="contact.html">contact</a></li>
             <li>
-              <a href="https://www.facebook.com/" target="_blank"
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                aria-label="follow us on facebook"
                 ><i class="fab fa-facebook"></i
               ></a>
             </li>
             <li>
-              <a href="https://twitter.com/" target="_blank"
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                aria-label="follow us on twitter"
                 ><i class="fab fa-twitter"></i
               ></a>
             </li>
@@ -47,7 +54,14 @@
         </nav>
         <!-- for mobile view -->
         <div class="mobile-bar">
-          <div class="toggle-bar">
+          <div
+            class="toggle-bar"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="open mobile menu"
+            tabindex="0"
+          >
             <i class="fas fa-bars"></i>
           </div>
           <nav class="mobile-nav-bar">
@@ -59,12 +73,18 @@
               <li><a href="#author">author</a></li>
               <li><a href="contact.html">contact</a></li>
               <li>
-                <a href="https://www.facebook.com/" target="_blank"
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="follow us on facebook"
                   ><i class="fab fa-facebook"></i
                 ></a>
               </li>
               <li>
-                <a href="https://twitter.com/" target="_blank"
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  aria-label="follow us on twitter"
                   ><i class="fab fa-twitter"></i
                 ></a>
               </li>
@@ -395,20 +415,20 @@
         <div class="review-content">
           <div class="review-stat">
             <div>
-              <h3>2000+</h3>
-              <p>Happy Users</p>
+              <h3 aria-labelledby="happy-useres-stats">2000+</h3>
+              <p id="happy-useres-stats">Happy Users</p>
             </div>
             <div>
-              <h3>385</h3>
-              <p>Issues Solved</p>
+              <h3 aria-labelledby="issues-solved-stats">385</h3>
+              <p id="issues-solved-stats">Issues Solved</p>
             </div>
             <div>
-              <h3>980</h3>
-              <p>Good Reviews</p>
+              <h3 aria-labelledby="good-reviews-stat">980</h3>
+              <p id="good-reviews-stat">Good Reviews</p>
             </div>
             <div>
-              <h3>216</h3>
-              <p>Case Studies</p>
+              <h3 aria-labelledby="case-studies-stats">216</h3>
+              <p id="case-studies-stats">Case Studies</p>
             </div>
           </div>
           <p class="review-para">
@@ -443,12 +463,42 @@
       <div class="container">
         <p>Follow us on social media for updates and news about our courses.</p>
         <div class="social-icon">
-          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-          <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            aria-label="follow us on facebook"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            aria-label="follow us on twitter"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            aria-label="follow us on instagram"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            aria-label="follow us on linkedin"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+          <a
+            href="https://youtube.com/"
+            target="_blank"
+            aria-label="follow us on youtube"
+            ><i class="fab fa-youtube fa-2x"></i
+          ></a>
+          <a
+            href="https://pinterest.com/"
+            target="_blank"
+            aria-label="follow us on pinterest"
+            ><i class="fab fa-pinterest fa-2x"></i
+          ></a>
         </div>
       </div>
     </section>
