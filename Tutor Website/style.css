@@ -432,7 +432,8 @@ p.review-para {
   max-width: 600px;
 }
 .subscription-flex form {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 .subscription-flex input[type="email"] {
   width: 100%;
@@ -445,6 +446,7 @@ p.review-para {
 
 /* social-section style*/
 .social-section {
+  margin-top: 4rem;
   background-color: rgb(37, 33, 45);
   color: white;
   padding: 6rem 2rem;
