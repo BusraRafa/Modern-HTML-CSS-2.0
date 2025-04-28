@@ -45,7 +45,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 ![Image](https://github.com/user-attachments/assets/ef5c6496-345c-4dc0-b8f0-71d09132dc8c)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
-| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://lumina-creative-webshow.netlify.app/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
+| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://busrarafa.github.io/Modern-HTML-CSS-2.0/lumina-creative-website/) | [Lumina Creative Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/lumina-creative-website) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +55,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 ![Image](https://github.com/user-attachments/assets/412a5d56-c6f4-4920-a87b-e9376e95cd83)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
-| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://bono-landing-web-form.netlify.app/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
+| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://busrarafa.github.io/Modern-HTML-CSS-2.0/Landing%20Form%20Mini%20Project/) | [Bono Landing Page](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Landing%20Form%20Mini%20Project) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
