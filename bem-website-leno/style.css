@@ -283,6 +283,33 @@ ul li {
   .review__card {
     padding: 0 1.5rem;
   }
+  .feature__grid {
+    grid-template-columns: 1fr;
+  }
+  .feature__grid-column-center {
+    order: 1;
+    margin-bottom: 3rem;
+  }
+  .feature__grid-column-left,
+  .feature__grid-column-right {
+    order: 2;
+    margin-bottom: 2rem;
+  }
+  .feature__grid-item,
+  .feature__grid-column-right .feature__grid-item {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    flex-direction: column-reverse;
+    max-width: 400px;
+  }
+  .feature__grid-column-center img {
+    max-width: 300px;
+  }
+  .feature__grid-item-icon {
+    margin-top: 0rem;
+  }
 }
 @media (max-width: 768px) {
   .navbar__menu-list {
