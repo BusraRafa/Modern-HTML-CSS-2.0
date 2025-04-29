@@ -402,6 +402,28 @@ ul li {
 .detail__grid-description {
   margin-bottom: 2rem;
 }
+/* deatails icon flex */
+.detail__icon {
+  margin-top: 6rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.detail__icon-item .fas {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+.detail__icon-amount {
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+.detail__icon-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
 /* detail section style ends here*/
 
 @media (max-width: 992px) {
