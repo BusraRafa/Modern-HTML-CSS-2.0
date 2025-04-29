@@ -129,6 +129,11 @@ ul li {
 /* mobile-navbar style ends here*/
 
 /* main section style*/
+.details-header {
+  background: url("./images/header-background.jpg") center center/cover
+    no-repeat;
+  padding: 10rem 2rem 6rem;
+}
 .main {
   background: url("./images/header-background.jpg") center center/cover
     no-repeat;
