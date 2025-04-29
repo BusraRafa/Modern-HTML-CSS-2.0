@@ -565,6 +565,41 @@ ul li {
 }
 
 /* price-note-style ends*/
+/* detail-feature style*/
+.detail-feature {
+  background-color: var(--tertiary-color);
+  padding: 4rem 2rem;
+}
+.detail-feature__title {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.detail-feature__list {
+  display: grid;
+  gap: 3rem;
+}
+.detail-feature__list-item {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.129);
+  border-radius: 20px;
+}
+.detail-feature__list-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+.detail-feature__list-item i {
+  color: var(--primary-color);
+}
+
+/* detail-feature style ends*/
+
 /* DETAILS HTML ends*/
 @media (max-width: 992px) {
   .main {
@@ -671,5 +706,9 @@ ul li {
   .price__card-holder {
     flex-direction: column;
     gap: 6rem;
+  }
+  .detail-feature__list-item {
+    flex-direction: column;
+    text-align: center;
   }
 }
