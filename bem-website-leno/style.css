@@ -347,6 +347,37 @@ ul li {
 }
 
 /* preview play button ends*/
+
+/* modal style */
+.modal {
+  /*after opening the video the behind screen*/
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  overflow: auto;
+}
+.modal__content {
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  border: thin solid rgb(136, 136, 136);
+  background-color: rgba(0, 0, 0, 0.523);
+}
+.modal__close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+/* modal style ends here*/
 @media (max-width: 992px) {
   .main {
     padding: 10rem;
@@ -417,5 +448,13 @@ ul li {
   }
   .review__card:nth-of-type(2) {
     display: none;
+  }
+  .modal__content {
+    width: 90%;
+    margin: 40% auto;
+    padding: 10px;
+  }
+  .modal__content iframe {
+    width: 100%;
   }
 }
