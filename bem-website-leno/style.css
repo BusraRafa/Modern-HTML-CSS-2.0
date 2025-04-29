@@ -129,11 +129,6 @@ ul li {
 /* mobile-navbar style ends here*/
 
 /* main section style*/
-.details-header {
-  background: url("./images/header-background.jpg") center center/cover
-    no-repeat;
-  padding: 10rem 2rem 6rem;
-}
 .main {
   background: url("./images/header-background.jpg") center center/cover
     no-repeat;
@@ -510,6 +505,67 @@ ul li {
   gap: 1.5rem;
 }
 /* footer section style ends here*/
+/* -------------- */
+/* DETAILS HTML */
+.details-header {
+  background: url("./images/header-background.jpg") center center/cover
+    no-repeat;
+  padding: 10rem 2rem 6rem;
+}
+
+/* price section style */
+.price {
+  background-color: var(--tertiary-color);
+  padding: 4rem 2rem 6rem;
+}
+.price__card-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+.price__title {
+  font-size: 2.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.price__card-box {
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.129);
+}
+.price__card-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.price__card-amount {
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.price__card-list {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 2.5;
+  text-align: left;
+}
+.price__card-item i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+/* price section style ends here*/
+/* price-note-style */
+.price_note {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: rgb(159, 156, 175);
+}
+
+/* price-note-style ends*/
+/* DETAILS HTML ends*/
 @media (max-width: 992px) {
   .main {
     padding: 10rem;
@@ -611,5 +667,9 @@ ul li {
   }
   .modal__content iframe {
     width: 100%;
+  }
+  .price__card-holder {
+    flex-direction: column;
+    gap: 6rem;
   }
 }
