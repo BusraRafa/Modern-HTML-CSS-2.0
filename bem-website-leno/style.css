@@ -250,6 +250,8 @@ ul li {
   flex-direction: row-reverse;
   text-align: left;
 }
+/* feature section style ends here*/
+/* preview section style*/
 .preview {
   background: url(./images/video-background.jpg) center center/cover no-repeat;
 }
@@ -269,9 +271,82 @@ ul li {
 .preview__video-wrapper img {
   max-width: 900px;
   border-radius: 10px;
+  width: 100%;
 }
-/* feature section style ends here*/
+.preview__video-wrapper {
+  position: relative;
+}
+/* preview section style ends here*/
 
+/* preview play button */
+.preview__video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+  box-sizing: content-box;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1.25rem 1.25rem 1.75rem;
+  /* border: 2px solid red; */
+}
+/* circle */
+.preview__video-play-button::after {
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-20%) translateY(-60%);
+  z-index: 1;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  background-color: rgb(93, 183, 239);
+  transition: all 200ms;
+}
+/* triangle */
+.preview__video-play-button span {
+  position: relative;
+  display: block;
+  z-index: 3;
+  top: 0.48rem;
+  left: 0.8rem;
+  width: 0;
+  height: 0;
+  border-left: 1.625rem solid white;
+  border-bottom: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+}
+/* button animation */
+.preview__video-play-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  display: block;
+  transform: translateX(-50%) translateY(-50%);
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  background-color: rgb(93, 183, 239);
+  animation: pulse-border 1400ms ease-out infinite;
+}
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* preview play button ends*/
 @media (max-width: 992px) {
   .main {
     padding: 10rem;
