@@ -378,6 +378,32 @@ ul li {
   cursor: pointer;
 }
 /* modal style ends here*/
+/* detail section style*/
+.detail {
+  padding: 9rem 2rem;
+}
+
+.detail__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+.detail__content {
+  max-width: 500px;
+  width: 100%;
+}
+.detail__grid-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.detail__grid-description {
+  margin-bottom: 2rem;
+}
+/* detail section style ends here*/
+
 @media (max-width: 992px) {
   .main {
     padding: 10rem;
