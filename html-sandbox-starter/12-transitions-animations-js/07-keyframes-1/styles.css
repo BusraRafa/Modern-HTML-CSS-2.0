@@ -20,7 +20,7 @@ body {
   /* animation-delay: 2s; */
   animation-fill-mode: forwards; /* will stay where is ends*/
   animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-out; /* linear is strt to end same timing*/
   position: absolute;
   /* animation-direction: reverse; */
 }

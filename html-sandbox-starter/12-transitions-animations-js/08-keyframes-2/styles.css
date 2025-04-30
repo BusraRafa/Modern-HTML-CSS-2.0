@@ -1,0 +1,65 @@
+.container {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* for box rotating */
+/* ----------- */
+/* .box {
+  width: 30px;
+  height: 30px;
+  background-color: lightskyblue;
+  animation: spin 3s linear forwards infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    background-color: lightgreen;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: lightskyblue;
+  }
+} */
+.box {
+  width: 30px;
+  height: 30px;
+  /* background-color: lightskyblue; */
+  animation: spin 2s linear infinite;
+  position: relative;
+}
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: lightskyblue;
+  animation: bounce 3s ease-in-out infinite;
+}
+.box::after {
+  left: -25px;
+  background-color: lightcoral;
+  animation: bounce 3s ease-in-out infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
