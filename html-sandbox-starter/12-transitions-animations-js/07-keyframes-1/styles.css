@@ -1,3 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
+}
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+}
+.box {
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  animation: animat-1 2s;
+  /* animation-delay: 2s; */
+  animation-fill-mode: forwards; /* will stay where is ends*/
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  position: absolute;
+  /* animation-direction: reverse; */
+}
+@keyframes animat-1 {
+  from {
+    top: 0;
+    width: 0;
+  }
+  to {
+    background-color: lightblue;
+    width: 1000px;
+    top: 100vh;
+  }
 }
