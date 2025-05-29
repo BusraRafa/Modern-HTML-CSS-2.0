@@ -45,7 +45,7 @@ Practice projects and tasks completed from the <strong>"Modern HTML & CSS From T
 ![Image](https://github.com/user-attachments/assets/677b469c-d75f-44bf-952f-80f43db8b59a)
 |  **🧪 Try the Project** |  **🛠 Repository Link** |
 |:--------------------------------:|:---------------------------------:|
-| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://busrarafa.github.io/Modern-HTML-CSS-2.0/tree/main/Tutor-Website) | [Tutor Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor-Website) |
+| [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-green)](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor-Website) | [Tutor Website](https://github.com/BusraRafa/Modern-HTML-CSS-2.0/tree/main/Tutor-Website) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
